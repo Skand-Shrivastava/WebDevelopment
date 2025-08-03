@@ -1,0 +1,35 @@
+*{
+    text-align: center;
+
+}
+
+h1, h2{
+    text-align: center;
+    text-decoration: bolder;
+    border-color: aquamarine;
+    border: 2px;
+    border-radius: 10px;
+    color: black;
+
+}
+#div1{
+    background-color: yellow;
+}
+
+#div2{
+    background-color: aqua;
+}
+
+#div3{
+    background-color: forestgreen;
+}
+
+#div4{
+    background-color: darkmagenta;
+}
+
+div{
+    margin: none;
+    border: black;
+    border: 1px;
+}

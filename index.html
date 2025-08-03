@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeevni Dental Clinic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="div1">
+        <h1>Patient Details</h1>
+        <form action="http://localhost/sdc/submit.php" method="post" enctype="multipart/form-data">
+            <input type="text" name="name" id="name" placeholder="Name" width="200px">
+            <input type="text" name="age" id="age" placeholder="Age" size="5">
+            Gender
+            <label for="male"></label>
+            <input type="radio" name="gender" id="male"> Male
+            <label for="female"></label>
+            <input type="radio" name="gender" id="female"> Female
+            <input type="text" name="location" id="location" placeholder="Location">
+             <br><br>
+    </div>
+
+    
+    <div id="div2">
+        <h2>Time Duration</h2>
+        Duration Of the Procedure In Months
+        <input type="text" name="month" id="month">
+        Extraction Details
+        <input type="text" name="ex" id="ex">
+         <br><br>
+    </div>
+
+    
+    <div id="div3">
+        <h2>Amount & Charges</h2>
+        Measurments <input type="text" name="measurements" id="measurements">
+        Braces <input type="text" name="braces" id="braces">
+        Amount per Month <input type="text" name="amount" id="amount">
+        Total Months <input type="text" name="tmonths" id="tmonths">
+         <br><br>
+    </div>
+
+    
+    <div id="div4">
+        <h2>Photos & Videos</h2>
+        Photo 1 <input type="file" name="photo1" id="photo1">
+        Photo 2 <input type="file" name="photo2" id="photo2">
+        Photo 3 <input type="file" name="photo3" id="photo3">
+        Photo 4 <input type="file" name="photo4" id="photo4"><br>
+        Photo 5 <input type="file" name="photo5" id="photo5">
+        Photo 6 <input type="file" name="photo6" id="photo6">
+         <br><br>
+    </div>
+
+    <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
