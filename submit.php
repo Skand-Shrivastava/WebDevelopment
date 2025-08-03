@@ -18,23 +18,23 @@ $age          = $_POST['age']         ?? '';
 $gender       = $_POST['gender']      ?? '';
 $location     = $_POST['location']    ?? '';
 $month       = $_POST['month']       ?? '';
-$ex           = $_POST['ex']          ?? '';
-$measurments  = $_POST['Measurments'] ?? '';
-$braces       = $_POST['Braces']      ?? '';
+$extraction           = $_POST['extraction']          ?? '';
+$measurements  = $_POST['measurements'] ?? '';
+$braces       = $_POST['braces']      ?? '';
 $amount       = $_POST['amount']      ?? '';
 $tmonths      = $_POST['tmonths']     ?? '';
 
 // Debug print (optional for testing)
-"Name: $name";
-"Age: $age";
-"Gender: $gender";
-"Location: $location";
-"Month: $month";
-"EX: $ex";
-"Measurments: $measurments";
-"Braces: $braces";
-"Amount: $amount";
-"Total Months: $tmonths";
+"name: $name";
+"age: $age";
+"gender: $gender";
+"location: $location";
+"month: $month";
+"extraction: $extraction";
+"measurements: $measurements";
+"braces: $braces";
+"amount: $amount";
+"tmonths: $tmonths";
 
 // File upload folder
 $uploadDir = "uploads/";
@@ -76,8 +76,8 @@ if ($stmt) {
         $gender,
         $location,
         $month,
-        $ex,
-        $measurments,
+        $extractions,
+        $measurements,
         $braces,
         $amount,
         $tmonths,
@@ -102,3 +102,4 @@ if ($stmt) {
 
 $conn->close();
 ?>
+
